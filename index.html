@@ -6,36 +6,60 @@
   <link href="./styles.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Yatra+One&family=Cuprum:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/2fb3abd743.js" crossorigin="anonymous"></script>
 </head>
 <body class="body">
   <div class="container">
-    <img src="assets/images/profile.png" class="profile-img"/>
-    <h1 class="username">Vireak Sok</h1>
-    <div class="social-medias">
-      <a href="https://www.instagram.com/vireak.work" target="_blank" rel="noreferrer">
-        <i class="fa-brands fa-square-instagram fa-xl"></i>
-      </a>
-      <a href="https://www.linkedin.com/in/vireaksok/" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin fa-xl"></i></a>
-      <a href="https://www.facebook.com/sokvireak72" target="_blank" rel="noreferrer"><i class="fa-brands fa-square-facebook fa-xl"></i></a>
+    <div class="img-wrapper">
+      <img src="assets/images/profile.png" class="profile-img"/>
     </div>
-    <div class="main-links">
-      <a href="mailto:sokvireak2000@gmail.com" target="_blank" rel="noreferrer" class="link-item">
-      <img src="assets/images/mail.png" class="link-icon"/>
-      <h3>Send me a mail</h3>
+    <div class="info-wrapper">
+      <h1 class="username">Vireak Sok</h1>
+      <p class="position">UX/UI Designer</p>
+    </div>
+    <div class="social-medias-wrapper">
+      <a class="icon-link" href="https://www.linkedin.com/in/vireaksok/" target="_blank" rel="noreferrer">
+        <svg class="icon" width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M54.08 8H9.92C8.858 8 8 8.858 8 9.92V54.08C8 55.142 8.858 56 9.92 56H54.08C55.142 56 56 55.142 56 54.08V9.92C56 8.858 55.142 8 54.08 8ZM22.238 48.902H15.116V25.994H22.238V48.902ZM18.68 22.862C17.8636 22.862 17.0655 22.6199 16.3866 22.1663C15.7078 21.7127 15.1787 21.068 14.8662 20.3137C14.5538 19.5594 14.472 18.7294 14.6313 17.9287C14.7906 17.1279 15.1838 16.3924 15.7611 15.8151C16.3384 15.2378 17.0739 14.8446 17.8747 14.6853C18.6754 14.526 19.5054 14.6078 20.2597 14.9202C21.014 15.2327 21.6587 15.7618 22.1123 16.4406C22.5659 17.1195 22.808 17.9176 22.808 18.734C22.802 21.014 20.954 22.862 18.68 22.862ZM48.902 48.902H41.786V37.76C41.786 35.102 41.738 31.688 38.084 31.688C34.382 31.688 33.812 34.58 33.812 37.568V48.902H26.702V25.994H33.53V29.126H33.626C34.574 27.326 36.896 25.424 40.364 25.424C47.576 25.424 48.902 30.17 48.902 36.338V48.902Z" fill="currentColor"/>
+        </svg>
       </a>
-      <a href="https://portfolio-vireak-sok.vercel.app" target="_blank" rel="noreferrer" class="link-item">
-      <img src="assets/images/website.png" class="link-icon"/>
-      <h3>View my works</h3>
+      <a class="icon-link" href="https://www.facebook.com/sokvireak72" target="_blank" rel="noreferrer">
+        <svg class="icon" width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M9.92 8H54.08C55.142 8 56 8.858 56 9.92V54.08C56 55.142 55.142 56 54.08 56H9.92C8.858 56 8 55.142 8 54.08V9.92C8 8.858 8.858 8 9.92 8ZM30.2575 17.2398C31.7387 15.5923 33.7476 14.6667 35.8424 14.6667H40.2824C40.4959 14.6667 40.6667 14.8585 40.6667 15.0941V21.5525C40.6667 21.79 40.4942 21.9799 40.2824 21.9799H35.8424C35.6686 21.9799 35.4965 22.018 35.3359 22.092C35.1753 22.166 35.0294 22.2744 34.9065 22.4111C34.7836 22.5478 34.6861 22.7101 34.6196 22.8887C34.5531 23.0673 34.5189 23.2587 34.5189 23.4521V28.3434H40.2346C40.293 28.3434 40.3507 28.3583 40.4032 28.3869C40.4557 28.4154 40.5016 28.4569 40.5375 28.5082C40.5734 28.5595 40.5983 28.6192 40.6103 28.6828C40.6224 28.7464 40.6212 28.8122 40.6069 28.8753L39.1553 35.3337C39.1126 35.5237 38.9589 35.6566 38.7831 35.6566H34.5189V48.9059C34.5189 49.1434 34.3464 49.3333 34.1346 49.3333H28.3284C28.1149 49.3333 27.9442 49.1415 27.9442 48.9059V35.6566H23.7176C23.5041 35.6566 23.3333 35.4648 23.3333 35.2292V28.7708C23.3333 28.5333 23.5058 28.3434 23.7176 28.3434H27.9442V23.4521C27.9442 21.122 28.7763 18.8874 30.2575 17.2398Z" fill="currentColor"/>
+          </svg>
       </a>
-      <a href="https://t.me/vireaksok" target="_blank" rel="noreferrer" class="link-item">
-      <img src="assets/images/paper-plane.png" class="link-icon"/>
-      <h3>Direct message me</h3>
+      <a class="icon-link" href="https://t.me/vireaksok" target="_blank" rel="noreferrer">
+        <svg class="icon" width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.92 8H54.08C55.142 8 56 8.858 56 9.92V54.08C56 55.142 55.142 56 54.08 56H9.92C8.858 56 8 55.142 8 54.08V9.92C8 8.858 8.858 8 9.92 8ZM44.003 44.7025L49.2345 20.1834C49.6989 18.0213 48.4532 17.1771 47.0293 17.7075L16.2754 29.4828C14.1779 30.2987 14.2088 31.4677 15.9188 31.9981L23.7815 34.4444L42.0454 23.0149C42.9035 22.4452 43.686 22.7614 43.0434 23.33L28.2701 36.5967L27.6968 44.6643C28.5178 44.6643 28.8731 44.3111 29.2991 43.8878L33.145 40.2109L41.1167 46.0487C42.5791 46.8633 43.608 46.4326 44.003 44.7025Z" fill="currentColor"/>
+        </svg>
+      </a>
+      <a class="icon-link" href="mailto:sokvireak2000@gmail.com" target="_blank" rel="noreferrer">
+        <svg class="icon" width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.92 8H54.08C55.142 8 56 8.858 56 9.92V54.08C56 55.142 55.142 56 54.08 56H9.92C8.858 56 8 55.142 8 54.08V9.92C8 8.858 8.858 8 9.92 8ZM18.92 22.4217C19.1902 22.1527 19.5586 22 19.9447 22H44.0558C44.4418 22 44.8102 22.1527 45.0804 22.4217C45.123 22.464 45.1625 22.5087 45.199 22.5554L32.0002 31.314L18.8015 22.5554C18.8379 22.5087 18.8775 22.464 18.92 22.4217ZM14.5004 23.3885C14.4999 23.4111 14.4999 23.4337 14.5002 23.4562V40.5714C14.5002 42.0142 15.0761 43.3959 16.0981 44.4133C17.1199 45.4303 18.5037 46 19.9447 46H44.0558C45.4968 46 46.8806 45.4303 47.9023 44.4133C48.9244 43.3959 49.5002 42.0142 49.5002 40.5714V23.4562C49.5005 23.4337 49.5005 23.4111 49.5001 23.3885C49.4895 21.9603 48.9149 20.5947 47.9023 19.5867C46.8806 18.5697 45.4968 18 44.0558 18H19.9447C18.5037 18 17.1199 18.5697 16.0981 19.5867C15.0855 20.5947 14.5109 21.9603 14.5004 23.3885ZM45.5002 27.1561V40.5714C45.5002 40.9473 45.3503 41.3097 45.0804 41.5783C44.8102 41.8473 44.4418 42 44.0558 42H19.9447C19.5586 42 19.1902 41.8473 18.92 41.5783C18.6501 41.3097 18.5002 40.9473 18.5002 40.5714V27.1561L30.8944 35.3808C31.5645 35.8255 32.4359 35.8255 33.1061 35.3808L45.5002 27.1561Z" fill="currentColor"/>
+        </svg>
+      </a>
+    </div>
+    <div class="main-links-wrapper">
+      <a href="https://v1-vireaksok.vercel.app" target="_blank" rel="noreferrer" class="link-item">
+      <!-- <img src="assets/images/website.png" class="link-icon"/> -->
+      <h4>View my portfolio</h4>
+      <i class="fa-solid fa-arrow-right"></i>
+      <a href="https://medium.com/@vireaksok" target="_blank" rel="noreferrer" class="link-item">
+      <!-- <img src="assets/images/mail.png" class="link-icon"/> -->
+      <h4>Read my blogs</h4>
+      <i class="fa-solid fa-arrow-right"></i>
+      </a>
+      </a>
+      <a href="https://www.behance.net/sokvireak" target="_blank" rel="noreferrer" class="link-item">
+      <!-- <img src="assets/images/paper-plane.png" class="link-icon"/> -->
+      <h4>Follow me on Behance</h4>
+      <i class="fa-solid fa-arrow-right"></i>
       </a>
       <a href="https://dribbble.com/vireaksok" target="_blank" rel="noreferrer" class="link-item">
-      <img src="assets/images/dribbble.png" class="link-icon"/>
-      <h3>See dribble posts</h3>
+      <!-- <img src="assets/images/dribbble.png" class="link-icon"/> -->
+      <h4>See Dribble posts</h4>
+      <i class="fa-solid fa-arrow-right"></i>
       </a>
     </div>
   </div>
